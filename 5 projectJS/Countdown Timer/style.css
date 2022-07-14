@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: url("https://sun9-west.userapi.com/sun9-63/s/v1/ig2/BLSSOLcQljNCYPgphRQglDnl6jXAx_h8z8IQchJP9QjHWT4NRjfhosaJtmCR4ooD1klLETThj5nXPWKJXqdQ7uUX.jpg?size=1334x750&quality=95&type=album");
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -10rem;
+    margin-top: 5rem;
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.3rem;
+}
